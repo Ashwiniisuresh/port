@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    font-family: 'Special Elite', cursive;
+
+}
+a{
+    text-decoration: none;
+    color: maroon;
+    text-shadow: 2px 2px 2px gray;
+}
+.links:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+#welcome{
+  background: linear-gradient(red ,blanchedalmond);
+    color: blue;
+    
+}
+.profile{
+
+margin-top: 70px;
+border-radius: 50%;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Cormorant SC', serif;
+}
+#name{
+    font-size: 50px;
+    line-height: 2;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+}
+h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+#bio{
+    padding: 50px;
+    font-size: 20px;
+}
+.line{
+    height: 6px;
+    background-color: darkcyan;
+    width: 70px;
+    margin: auto;
+}
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+    color: blue;
+}
+#writings a:hover{
+ color: brown;
+}
+#contact iframe{
+    width: 100%;
+}
+#contact a{
+    text-shadow: none;
+}
+.contact_1 h3{
+    display: inline;
+}
